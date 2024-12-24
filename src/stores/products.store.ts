@@ -1,6 +1,6 @@
-import { ref, computed } from 'vue'
+import { ref } from 'vue'
 import { defineStore } from 'pinia'
-import axios, { AxiosError, type AxiosResponse } from 'axios'
+import { AxiosError, type AxiosResponse } from 'axios'
 import { axiosInstance } from './axios'
 
 interface IProduct {
